@@ -1,42 +1,286 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* #root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
   text-align: center;
+  background: linear-gradient(135deg, #ff6e7f 0%, #f9d423 100%);
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body, html {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1.2rem;
+  max-width: 960px;
+  width: 100%;
+  justify-content: center;
+}
+
+.cardContainer > div {
+  background: #ffffff10;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  padding: 0.5rem;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 10px;
+}
+
+
+.cardContainer > div:hover, .cardContainer > div:focus {
+  transform: scale(1.08);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.22);
+  border-color: #ffb86c;
+}
+
+.cardContainer img {
+  width: 60%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+  border: none;
+  box-shadow: none;
+  margin-bottom: 0.5rem;
+  background: transparent;
+}
+
+
+.cardContainer h3 {
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px #0008;
+  margin: 0;
+  padding: 0.4rem 0.6rem;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  max-width: 90%;
+  word-wrap: break-word;
+}
+
+
+div > p {
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 0.2rem 0;
+  letter-spacing: 1px;
+  text-shadow: 0 1px 4px #0007;
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: #fff;
+  margin-bottom: 0.2rem;
+  letter-spacing: 2px;
+  text-shadow: 0 2px 8px #000a;
+  margin-top: 0.7rem;
+}
+
+@media (max-width: 600px) {
+  .mainContainer {
+    height: calc(100vh - 90px);
   }
-  to {
-    transform: rotate(360deg);
+  .cardContainer {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 0.7rem;
+    padding: 0 1vw;
+  }
+  .cardContainer > div {
+    min-width: 70px;
+    min-height: 70px;
+    max-width: 90px;
+    max-height: 90px;
+  }
+  .cardContainer img {
+    width: 48px;
+    height: 48px;
+  }
+  .cardContainer h3 {
+    font-size: 0.8rem;
+    max-width: 70px;
+  }
+} */
+
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: linear-gradient(135deg, #ff6e7f 0%, #f9d423 100%);
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body, html {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-template-rows: repeat(2, 1fr); /* Only two rows */
+  gap: 2rem;
+  width: 90vw;
+  max-width: 1100px;
+  height: 480px; /* Adjust height to fit two rows of cards */
+  justify-items: center;
+  align-items: center;
+  margin: 4.5rem auto 0 auto; /* Increased top margin for heading visibility */
+  background: none;
+  overflow: visible;
+}
+
+.cardContainer > div {
+  background: #ffffff22;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  padding: 1.2rem 0.5rem 1rem 0.5rem;
+  transition: transform 0.18s, box-shadow 0.18s;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 220px;
+  border-radius: 18px;
+}
+
+.cardContainer > div:hover, .cardContainer > div:focus {
+  transform: scale(1.08);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.22);
+  border-color: #ffb86c;
+}
+
+.cardContainer img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+  background: #fff;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 8px #0002;
+  margin-bottom: 2.5rem;
+  display: block;
+}
+
+.cardContainer h3 {
+  font-size: 1.1rem;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px #0008;
+  margin: 0;
+  padding: 0.4rem 0.6rem;
+  background: rgba(0, 0, 0, 0.18);
+  border-radius: 8px;
+  max-width: 90%;
+  word-wrap: break-word;
+}
+
+div > p {
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 0.2rem 0;
+  letter-spacing: 1px;
+  text-shadow: 0 1px 4px #0007;
+}
+
+h1 {
+  position: relative;
+  z-index: 2;
+  font-size: 2.5rem;
+  color: #fff;
+  margin: 2.5rem 0 0.5rem 0; /* More top margin */
+  letter-spacing: 2px;
+  text-shadow: 0 2px 8px #000a;
+  background: rgba(0,0,0,0.18);
+  padding: 0.5rem 2rem;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+h3 {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  margin: 0.5rem 0 1.5rem 0;
+  font-weight: 500;
+  text-shadow: 0 1px 6px #000a;
+  background: rgba(0,0,0,0.12);
+  padding: 0.4rem 1.5rem;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+
+@media (max-width: 900px) {
+  .cardContainer {
+    width: 98vw;
+    gap: 1.2rem;
+  }
+  .cardContainer > div {
+    width: 140px;
+    height: 170px;
+  }
+  .cardContainer img {
+    width: 80px;
+    height: 80px;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@media (max-width: 600px) {
+  .cardContainer {
+    grid-template-columns: repeat(2, 1fr);
+    width: 99vw;
+    gap: 0.7rem;
+    margin: 1rem 0;
+    padding: 0;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  .cardContainer > div {
+    width: 110px;
+    height: 130px;
+    padding: 0.5rem 0.2rem 0.5rem 0.2rem;
+  }
+  .cardContainer img {
+    width: 54px;
+    height: 54px;
+    margin-bottom: 0.5rem;
+  }
+  .cardContainer h3 {
+    font-size: 0.8rem;
+    max-width: 70px;
+  }
 }
