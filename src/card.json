@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "name": "Scorpion",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/1992/3075080-screen%20shot%202019-01-13%20at%2012.27.06%20pm.png"
+  },
+  {
+    "id": 2,
+    "name": "Kuai Liang",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/1992/3488680-1100993639-ezgif.png"
+  },
+  {
+    "id": 3,
+    "name": "Razor Callahan",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/4054/471099-42_razor.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Mr. Domino",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/2714/296752-mrdomino.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Zelda",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/15/153607/3289236-0613306556-latest.png"
+  },
+  {
+    "id": 6,
+    "name": "Zangief",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/12/121177/2109077-13527.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Yoda",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/3/34651/1211013-0yoda.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Wrong Way",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/5768/576684-ww.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Wong Who",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/16/164924/3144356-3381820920-latest"
+  },
+  {
+    "id": 10,
+    "name": "Wolverine",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/11/110502/2064198-wolverine_umvc3_v1.png"
+  },
+  {
+    "id": 11,
+    "name": "Wolfgang Krauser",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/7/70497/3123367-1173176337-latest"
+  },
+  {
+    "id": 12,
+    "name": "White Mike",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/26/9935-whitemike.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Tony Hawk",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/4018/301907-tonyhawk_grani_703173_400.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Tommy Vercetti",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/8960/2447712-0075136441-Stree.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Tommy",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/26/9886-prey-tommy.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Tomko",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/26/9788-tomko.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Tom",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/26/9787-snowbros.gif"
+  },
+  {
+    "id": 18,
+    "name": "Tiger Woods",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/1992/2114302-tw1.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Thi Barrett",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/87790/1379148-rott_char2.png"
+  },
+  {
+    "id": 20,
+    "name": "The Burger King",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/27/9836-burger-king.jpg"
+  },
+  {
+    "id": 21,
+    "name": "The Amazon",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/16/164924/3517450-charactor-img-005.png"
+  },
+  {
+    "id": 22,
+    "name": "Weighted Companion Cube",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/26/9800-wcc.gif"
+  },
+  {
+    "id": 23,
+    "name": "John MacTavish",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/2/23298/1083866-modernwarfare247_09_1024x768.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Wario",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/46/462814/3191422-1725684518-SMPWa.png"
+  },
+  {
+    "id": 25,
+    "name": "Voldo",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/3/33745/1081183-voldo_01.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Victor Zakhaev",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/80630/1664127-300px_cod4ultramustache.png"
+  },
+  {
+    "id": 28,
+    "name": "Victor Vance",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/11/112064/1634324-victor_vance.png"
+  },
+  {
+    "id": 29,
+    "name": "Abigail",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/16/164924/3144185-2795205785-abiga.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Vega",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/11/115901/2109132-vegasfxt2.png"
+  },
+  {
+    "id": 31,
+    "name": "Ulala",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/46/462814/3189091-5207969509-latest"
+  },
+  {
+    "id": 32,
+    "name": "Ty",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/26/9895-pit-ty.png"
+  },
+  {
+    "id": 33,
+    "name": "Trevor Belmont",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/3/34651/1430847-trevor4.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Terry Bogard",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/11/115901/2077415-terrypnge.png"
+  },
+  {
+    "id": 35,
+    "name": "Two.P",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/11/110168/1853571-twop.png"
+  },
+  {
+    "id": 36,
+    "name": "Delete",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_medium/45/453869/3183535-3047788-aj-styles-will-defend-the-wwe-championship-against-dean-ambrose-at-wwe-tlc.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Abyss",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/31/11269-abyss_tna.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Adolf Hitler",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/26/9812-Hitler2.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Afro Thunder",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/10/103881/1867197-afro2.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Tarma Roving",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/4737/419165-tarmaroving.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Aggro Eddie",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/10/103881/1771628-aggroeddie.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Alex Kidd",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/82/827107/3322996-8744436969-660.png"
+  },
+  {
+    "id": 43,
+    "name": "Alex Shelley",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/31/11274-alex_shelley.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Taradino Cassatt",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/87790/1379169-rott_char1.png"
+  },
+  {
+    "id": 45,
+    "name": "Tails",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/1/12541/1464949-tails_main_image.png"
+  },
+  {
+    "id": 46,
+    "name": "T. Hawk",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/4940/869158-800px_thawksupersfiix.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Superman",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/15/153607/2554989-4683900286-injus.png"
+  },
+  {
+    "id": 48,
+    "name": "Altaïr Ibn-La'Ahad",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/3/34651/3410287-altair.png"
+  },
+  {
+    "id": 49,
+    "name": "Amigo",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/1/10421/406463-pinball_amigo2.png"
+  },
+  {
+    "id": 51,
+    "name": "Super Macho Man",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/3/33787/1044824-supermachoman.jpg"
+  },
+  {
+    "id": 52,
+    "name": "Super Joe",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/26/9893-superjoe-bcr.jpg"
+  },
+  {
+    "id": 53,
+    "name": "Strider Hiryu",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/11/115901/2120954-stridervic.png"
+  },
+  {
+    "id": 54,
+    "name": "Sting",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/7383/2283184-sting.jpg"
+  },
+  {
+    "id": 55,
+    "name": "Hugo Andore",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/3/34651/3425039-boots.png"
+  },
+  {
+    "id": 56,
+    "name": "Andy Bogard",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/36/361609/3327490-681761dc-dfe6-4178-9ba0-e88096df1982.png"
+  },
+  {
+    "id": 57,
+    "name": "April O'Neil",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/334/2819166-tmnt.jpg"
+  },
+  {
+    "id": 58,
+    "name": "The Arbiter",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/8960/2359708-arbiter.png"
+  },
+  {
+    "id": 59,
+    "name": "Axl",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/16/164924/3144188-0225546507-latest"
+  },
+  {
+    "id": 60,
+    "name": "Bald Bull",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/3017/1026491-punch_out_wii_wiki_prop_bald_bull_01.png"
+  },
+  {
+    "id": 61,
+    "name": "Balrog",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/11/115901/2109082-balrogsfxt2.png"
+  },
+  {
+    "id": 62,
+    "name": "Bam Margera",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/26/10164-bammargera.jpg"
+  },
+  {
+    "id": 63,
+    "name": "Banjo",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/3/34651/3394062-dumbassbanjo.png"
+  },
+  {
+    "id": 64,
+    "name": "Baraka",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/1992/3490708-0449560774-ezgif.png"
+  },
+  {
+    "id": 65,
+    "name": "Bart Simpson",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/4938/718616-bart.png"
+  },
+  {
+    "id": 66,
+    "name": "Batman",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/3/34651/1908508-batmanaa.png"
+  },
+  {
+    "id": 67,
+    "name": "Bear Hugger",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/3/30760/2067385-bear_hugger_1.jpg"
+  },
+  {
+    "id": 68,
+    "name": "Splinter",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/15/155548/2482260-splinter2.gif"
+  },
+  {
+    "id": 69,
+    "name": "Peter Parker",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/1992/3029308-spiderman-1.jpg"
+  },
+  {
+    "id": 70,
+    "name": "Sonya Blade",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/1992/1536136-sonya_blade.png"
+  },
+  {
+    "id": 71,
+    "name": "Starman",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/16/164924/3517445-charactor-img-002.png"
+  },
+  {
+    "id": 72,
+    "name": "Sonjay Dutt",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/7383/2283220-sonjaydutt.jpg"
+  },
+  {
+    "id": 73,
+    "name": "Sonic the Hedgehog",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/46/462814/3182258-4728507772-latest"
+  },
+  {
+    "id": 74,
+    "name": "Sonia Belmont",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/3/34651/1223575-0sonia2.jpg"
+  },
+  {
+    "id": 75,
+    "name": "Solid Snake",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/1/17914/1385184-926596_20080521_790screen005.jpg"
+  },
+  {
+    "id": 76,
+    "name": "Soleiyu Belmont",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/2/25925/842833-150px_casvansolieyu_1.gif"
+  },
+  {
+    "id": 77,
+    "name": "Sodom",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/3/34651/3422784-sodom.png"
+  },
+  {
+    "id": 78,
+    "name": "Smoke",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/1992/3488688-3191773678-ezgif.png"
+  },
+  {
+    "id": 79,
+    "name": "Slick",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/5768/576614-slick1.jpg"
+  },
+  {
+    "id": 80,
+    "name": "Ugg",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/31/11579-ugg.jpg"
+  },
+  {
+    "id": 81,
+    "name": "Slash",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/16/164924/3144355-8626953215-latest"
+  },
+  {
+    "id": 83,
+    "name": "Slash",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/26/9941-GH3-poster.jpg"
+  },
+  {
+    "id": 84,
+    "name": "Skullomania",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/36/361609/3279976-df55ae11-eff4-4ef2-b9a5-a794c0ef3b34.png"
+  },
+  {
+    "id": 85,
+    "name": "Simons",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/16/164924/3144352-8549583354-latest"
+  },
+  {
+    "id": 86,
+    "name": "Simon Belmont",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/16/164924/3217321-5396538633-simon.png"
+  },
+  {
+    "id": 87,
+    "name": "Shredder",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/16/164924/2525111-tincan.png"
+  },
+  {
+    "id": 88,
+    "name": "Sheeva",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/11/110502/1746098-1745816_25147_bd_sheeva_color_122_41lo.jpg"
+  },
+  {
+    "id": 89,
+    "name": "Shark Boy",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/7383/2283219-sharkboy2.jpg"
+  },
+  {
+    "id": 90,
+    "name": "Shaquille O'Neal",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/26/9815-mask_shaq.jpg"
+  },
+  {
+    "id": 91,
+    "name": "Shao Kahn",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/1992/3497166-6388591173-ezgif.png"
+  },
+  {
+    "id": 92,
+    "name": "Shang Tsung",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/1992/3502044-7725009122-ezgif.png"
+  },
+  {
+    "id": 94,
+    "name": "Sektor",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/88/887274/3568191-1908071594-15947.png"
+  },
+  {
+    "id": 95,
+    "name": "Scott Steiner",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/7383/2283213-steiner.jpg"
+  },
+  {
+    "id": 97,
+    "name": "Sarah Kerrigan",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/26/10007-Starcraft-Sarah-Kerrigan.jpg"
+  },
+  {
+    "id": 98,
+    "name": "Sarah Bryant",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/3/34651/3412051-bryant.png"
+  },
+  {
+    "id": 99,
+    "name": "Samus Aran",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/16/164924/3445907-2936872287-samus.png"
+  },
+  {
+    "id": 100,
+    "name": "Samoa Joe",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/26/9973-samoajoe.jpg"
+  },
+  {
+    "id": 101,
+    "name": "Sam Fisher",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/1992/3075723-screen%20shot%202019-01-16%20at%2010.21.01%20pm.png"
+  },
+  {
+    "id": 102,
+    "name": "Sagat",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/9/90134/1805654-sagat_sfxt.jpg"
+  },
+  {
+    "id": 103,
+    "name": "Ryu",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/7/70497/2994073-ryurender.png"
+  },
+  {
+    "id": 104,
+    "name": "Ryu Hayabusa",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/9170/539051-175px_ryuhayabusa.jpg"
+  },
+  {
+    "id": 105,
+    "name": "Roman Bellic",
+    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/31/11253-gta-4-roman-bellic.jpg"
+  }
+]

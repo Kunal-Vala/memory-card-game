@@ -1,44 +1,16 @@
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import "./App.css";
 import { Card } from "./Card";
+import initalCards from "./card.json"
 
 function App() {
   const [score, setScore] = useState(0);
   const [bestscore, setBestScore] = useState(0);
   const [clickedCards, setClickedCards] = useState([]);
-  const [cards, setCards] = useState([]);
 
-  useEffect(() => {
-    const fetchCharacters = async () => {
-      const apiKey = "6a83e0a70b6ab4920e5404e876a316274a434cc3";
-      // Use a more reliable proxy or your own backend if possible
-      // const url = `https://corsproxy.io/?https://www.giantbomb.com/api/characters/?api_key=${apiKey}&format=json&field_list=id,name,image`;
-      const url = `/api/characters/?api_key=${apiKey}&format=json&field_list=id,name,image`;
+  const limitedCard = initalCards.slice(0,10);
+  const [cards, setCards] = useState(limitedCard);
 
-      try {
-        const response = await fetch(url);
-
-        // Check if the response is OK and is JSON
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-
-        const data = await response.json();
-
-        if (data.results) {
-          const limitedCard = data.results.slice(0,10);
-
-          setCards(limitedCard);
-        } else {
-          setCards([]);
-        }
-      } catch (error) {
-        console.error("Error Fetching Data :", error);
-        setCards([]);
-      }
-    };
-    fetchCharacters();
-  }, []);
 
   const handleCardClick = (id) => {
     if (clickedCards.includes(id)) {
@@ -83,7 +55,7 @@ function App() {
           {cards.map((card) => (
             <Card
               key={card.id}
-              image={card.image.icon_url}
+              image={card.icon_url}
               name={card.name}
               id={card.id}
               onHandleClick={handleCardClick}
